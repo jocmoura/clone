@@ -14,7 +14,7 @@ body{
 }
 .logo h1{
     color: red;
-    font-size: 30px;
+    font-size: 2.4em;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     cursor: pointer;
@@ -22,26 +22,28 @@ body{
 }
 .what-h{
     color:white ;
-    display: block;
+    display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 26px;
+    font-size: 1.6em;
     font-weight: 200;
     font-family: Arial, Helvetica, sans-serif;
-    margin:50px 0;
+    margin: 30px 5px;
+    padding: 15px;
 }
 .imagens{
     display: flex;
     cursor: pointer;
-    margin: auto; 
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .imagens-five{
     display: flex;
-    margin: auto;
+    flex-wrap: wrap;
+    margin: 0 30px;
 }
 .imagens-hover:hover{
     color: white;
-    position: relative;
     bottom: 10px;
     transition: all 1s;
 }
@@ -54,7 +56,9 @@ body{
 
 .imagens-five p{
     color:#b6a483;
-    display: block;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     text-align: center;
     font-size: 20px;
 }
@@ -65,6 +69,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 .btn{
     display: block;

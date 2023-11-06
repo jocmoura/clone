@@ -35,12 +35,13 @@ body{
     display: flex;
     cursor: pointer;
     justify-content: center;
-    flex-wrap: wrap;
 }
 .imagens-five{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    margin: 0 30px;
+
 }
 .imagens-hover:hover{
     color: white;
@@ -90,3 +91,17 @@ body{
     left: 10px;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+}
+
+
+@media (min-width:520px) {
+    .imagens{
+        justify-content: center;
+    }
+}
